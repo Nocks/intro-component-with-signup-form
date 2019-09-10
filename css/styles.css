@@ -46,14 +46,112 @@ input:focus {
 
 .container {
   padding: 2em 2em 1em 2em;
+  background-image: url("../images/bg-intro-mobile.png");
+  background-color: #ff7a7a;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
+}
+
+.marketing {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  color: #fff;
+}
+.marketing .title {
+  font-size: 1.8em;
+  line-height: 1.333em;
+}
+.marketing .title span {
+  display: block;
+}
+.marketing .title span:last-child {
+  margin-top: 0em;
+}
+.marketing .message {
+  font-weight: 600;
+}
+
+.registration .btn {
+  padding: 1.2em 2em 1.2em 2em;
+  border: 0;
+  border-radius: 0.438em;
+  text-align: center;
+  width: 100%;
+}
+.registration .top .btn-free-trail {
+  background-color: #6055a5;
+  color: #fff;
+  line-height: 1.499em;
+  -webkit-box-shadow: 0px 8px 7px -4px #585661;
+  -moz-box-shadow: 0px 8px 7px -4px #585661;
+  box-shadow: 0px 8px 7px -4px #585661;
+}
+.registration .top .btn-free-trail .trail-emphasis {
+  font-weight: 700;
+}
+.registration .top .btn-free-trail .trail-price {
+  display: block;
+  margin-top: 0;
+}
+.registration .bottom .form-wrapper {
+  background-color: #fff;
+  padding: 1.5em;
+  border-radius: 0.438em;
+  -webkit-box-shadow: 0px 9px 7px -4px #585661;
+  -moz-box-shadow: 0px 9px 7px -4px #585661;
+  box-shadow: 0px 9px 7px -4px #585661;
+}
+.registration .bottom .form-wrapper .form-group {
+  display: flex;
+  flex-direction: column;
+}
+.registration .bottom .form-wrapper .form-group .form-control {
+  border: 1px solid #b9b6d3;
+  border-radius: 0.438em;
+  font-weight: 600;
+  padding: 1.2em 1em;
+}
+.registration .bottom .form-wrapper .form-group .form-control::placeholder {
+  font-weight: 600;
+}
+.registration .bottom .form-wrapper .form-group .form-control + .form-control {
+  margin-top: 1em;
+}
+.registration .bottom .form-wrapper .form-group .btn-register {
+  background-color: #38cc8c;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 1em;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 8px 7px -4px #38cc8c;
+  -moz-box-shadow: 0px 8px 7px -4px #38cc8c;
+  box-shadow: 0px 8px 7px -4px #38cc8c;
+}
+.registration .bottom .form-wrapper .terms-service-agreement {
+  color: #b9b6d3;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-align: center;
+}
+.registration .bottom .form-wrapper .terms-service-agreement .terms-emphasis {
+  color: #ff7a7a;
 }
 
 footer .attribution {
   font-size: 11px;
   text-align: center;
+  color: #fff;
 }
 footer .attribution a {
-  color: #3e52a3;
+  color: #fff;
+}
+footer span {
+  display: block;
+}
+footer span + span {
+  margin-top: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
