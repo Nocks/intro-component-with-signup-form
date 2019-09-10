@@ -1,0 +1,75 @@
+// primary Colours
+$color-red: hsl(0, 100%, 74%);
+$color-green: hsl(154, 59%, 51%);
+
+// Accent Colour
+$color-blue: hsl(248, 32%, 49%);
+
+// Neutral Colours
+$color-dark-blue: hsl(249, 10%, 26%);
+$color-grayish-blue: hsl(246, 25%, 77%);
+
+// Typography for Body
+$body-font: 'Poppins', sans-serif;
+
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $body-font;
+  font-size: 1rem;
+  line-height: 1.5em;
+  color: $color-dark-blue;
+}
+
+body * + * {
+  margin-top: 1.5em;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  border: none;
+}
+
+a:active, a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}
+
+.container {
+  padding: 2em 2em 1em 2em;
+}
+
+
+footer {
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
