@@ -157,4 +157,101 @@ footer span + span {
   margin-top: 0;
 }
 
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding: 3em 6em 1em 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main,
+footer {
+    width: 80%;
+  }
+
+  .marketing .title {
+    font-size: 2.5em;
+  }
+
+  footer span {
+    display: inline;
+  }
+}
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .container {
+    padding: 3em 7em 1em 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main,
+footer {
+    width: 80%;
+  }
+
+  .marketing .title {
+    font-size: 2.5em;
+  }
+
+  footer span {
+    display: inline;
+  }
+}
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .marketing .title {
+    font-size: 2.2em;
+  }
+
+  footer span {
+    display: inline;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+  .container {
+    padding: 3em 5em 1em 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main,
+footer {
+    width: 80%;
+  }
+
+  .marketing .title {
+    font-size: 2.5em;
+  }
+
+  footer span {
+    display: inline;
+  }
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
 /*# sourceMappingURL=styles.css.map */
