@@ -125,9 +125,9 @@ input:focus {
   font-weight: 600;
   margin-top: 1em;
   text-transform: uppercase;
-  -webkit-box-shadow: 0px 8px 7px -4px ghostwhite;
-  -moz-box-shadow: 0px 8px 7px -4px ghostwhite;
-  box-shadow: 0px 8px 7px -4px ghostwhite;
+  -webkit-box-shadow: 0px 8px 7px -4px #99d099;
+  -moz-box-shadow: 0px 8px 7px -4px #99d099;
+  box-shadow: 0px 8px 7px -4px #99d099;
 }
 .registration .bottom .form-wrapper .terms-service-agreement {
   color: #b9b6d3;
@@ -139,6 +139,9 @@ input:focus {
   color: #ff7a7a;
 }
 
+footer {
+  margin-top: 2em;
+}
 footer .attribution {
   font-size: 11px;
   text-align: center;

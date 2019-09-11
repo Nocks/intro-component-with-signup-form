@@ -128,9 +128,6 @@ input:focus {
           background-color: #fff;
           padding: 1.5em;
           border-radius: 0.438em;
-          // -webkit-box-shadow: 0px 9px 7px -4px rgba(88,86,97,1);
-          // -moz-box-shadow: 0px 9px 7px -4px rgba(88,86,97,1);
-          // box-shadow: 0px 9px 7px -4px rgba(88,86,97,1);
           -webkit-box-shadow: 0px 7px 7px 0px rgba(216,110,114,1);
           -moz-box-shadow: 0px 7px 7px 0px rgba(216,110,114,1);
           box-shadow: 0px 7px 7px 0px rgba(216,110,114,1);
@@ -161,12 +158,9 @@ input:focus {
                   font-weight: 600;
                   margin-top: 1em;
                   text-transform: uppercase;
-                  -webkit-box-shadow: 0px 8px 7px -4px rgba(248,248,255,1);
-                  -moz-box-shadow: 0px 8px 7px -4px rgba(248,248,255,1);
-                  box-shadow: 0px 8px 7px -4px rgba(248,248,255,1);
-                  // -webkit-box-shadow: 0px 8px 7px -4px rgba(56,204,140,1);
-                  // -moz-box-shadow: 0px 8px 7px -4px rgba(56,204,140,1);
-                  // box-shadow: 0px 8px 7px -4px rgba(56,204,140,1);
+                  -webkit-box-shadow: 0px 8px 7px -4px rgba(153,208,153,1);
+                  -moz-box-shadow: 0px 8px 7px -4px rgba(153,208,153,1);
+                  box-shadow: 0px 8px 7px -4px rgba(153,208,153,1);
                 }
             }
 
@@ -186,6 +180,7 @@ input:focus {
 
 
 footer {
+  margin-top: 2em;
 
   .attribution {
     font-size: 11px;
