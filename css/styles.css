@@ -84,9 +84,9 @@ input:focus {
   background-color: #6055a5;
   color: #fff;
   line-height: 1.499em;
-  -webkit-box-shadow: 0px 8px 7px -4px #585661;
-  -moz-box-shadow: 0px 8px 7px -4px #585661;
-  box-shadow: 0px 8px 7px -4px #585661;
+  -webkit-box-shadow: 0px 9px 7px -4px #d96566;
+  -moz-box-shadow: 0px 9px 7px -4px #d96566;
+  box-shadow: 0px 9px 7px -4px #d96566;
 }
 .registration .top .btn-free-trail .trail-emphasis {
   font-weight: 700;
@@ -99,9 +99,9 @@ input:focus {
   background-color: #fff;
   padding: 1.5em;
   border-radius: 0.438em;
-  -webkit-box-shadow: 0px 9px 7px -4px #585661;
-  -moz-box-shadow: 0px 9px 7px -4px #585661;
-  box-shadow: 0px 9px 7px -4px #585661;
+  -webkit-box-shadow: 0px 7px 7px 0px #d86e72;
+  -moz-box-shadow: 0px 7px 7px 0px #d86e72;
+  box-shadow: 0px 7px 7px 0px #d86e72;
 }
 .registration .bottom .form-wrapper .form-group {
   display: flex;
@@ -125,9 +125,9 @@ input:focus {
   font-weight: 600;
   margin-top: 1em;
   text-transform: uppercase;
-  -webkit-box-shadow: 0px 8px 7px -4px #38cc8c;
-  -moz-box-shadow: 0px 8px 7px -4px #38cc8c;
-  box-shadow: 0px 8px 7px -4px #38cc8c;
+  -webkit-box-shadow: 0px 8px 7px -4px ghostwhite;
+  -moz-box-shadow: 0px 8px 7px -4px ghostwhite;
+  box-shadow: 0px 8px 7px -4px ghostwhite;
 }
 .registration .bottom .form-wrapper .terms-service-agreement {
   color: #b9b6d3;
