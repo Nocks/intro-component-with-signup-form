@@ -208,7 +208,50 @@ footer {
 
 @media (min-width: 1281px) {
 
-  //CSS
+  .container {
+    padding: 0 0 1em 0;
+    background-image: url("../images/bg-intro-desktop.png");
+  }
+
+  main {
+    padding: 3em 8em 1em 8em;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .marketing {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 2em;
+    text-align: left;
+  }
+
+  .marketing .title {
+    font-size: 3em;
+    line-height: 1.1em;
+  }
+
+  .marketing .message {
+    font-weight: normal;
+    margin-top: 0;
+  }
+
+  .registration {
+    flex: 50%;
+  }
+
+  .registration .top .btn-free-trail .trail-price {
+    display: inline;
+  }
+
+  footer span {
+    display: inline;
+  }
 
 }
 
@@ -219,7 +262,50 @@ footer {
 
 @media (min-width: 1025px) and (max-width: 1280px) {
 
-  //CSS
+  .container {
+    padding: 0 0 1em 0;
+    background-image: url("../images/bg-intro-desktop.png");
+  }
+
+  main {
+    padding: 3em 7em 1em 7em;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .marketing {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 2em;
+    text-align: left;
+  }
+
+  .marketing .title {
+    font-size: 2.5em;
+    line-height: 1.1em;
+  }
+
+  .marketing .message {
+    font-weight: normal;
+    margin-top: 0;
+  }
+
+  .registration {
+    flex: 50%;
+  }
+
+  .registration .top .btn-free-trail .trail-price {
+    display: inline;
+  }
+
+  footer span {
+    display: inline;
+  }
 
 }
 
