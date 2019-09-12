@@ -79,6 +79,7 @@ input:focus {
   border-radius: 0.438em;
   text-align: center;
   width: 100%;
+  cursor: pointer;
 }
 .registration .top .btn-free-trail {
   background-color: #6055a5;
