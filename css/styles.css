@@ -81,6 +81,7 @@ input:focus {
   width: 100%;
   cursor: pointer;
 }
+
 .registration .top .btn-free-trail {
   background-color: #6055a5;
   color: #fff;
@@ -96,6 +97,7 @@ input:focus {
   display: block;
   margin-top: 0;
 }
+
 .registration .bottom .form-wrapper {
   background-color: #fff;
   padding: 1.5em;
